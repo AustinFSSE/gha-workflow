@@ -19,6 +19,12 @@ jobs:
         run: npm ci
       - name: Lint code
         run: npm run lint
+      - name: Upload lint report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lint-report
+          path: lint-results.json
   test:
     runs-on: ubuntu-latest
     steps:
