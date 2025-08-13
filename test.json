@@ -8,7 +8,7 @@
   "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1755114427201,
+  "startTime": 1755114547138,
   "success": true,
   "testResults": [
     {
@@ -32,12 +32,12 @@
           "fullName": " MainContent should show the help area after clicking the button",
           "status": "passed",
           "title": "should show the help area after clicking the button",
-          "duration": 13,
+          "duration": 14,
           "failureMessages": []
         }
       ],
-      "startTime": 1755114427833,
-      "endTime": 1755114427863,
+      "startTime": 1755114547881,
+      "endTime": 1755114547912,
       "status": "passed",
       "message": "",
       "name": "/Users/austinmartin/Desktop/GHA Certification Course/Controlling Execution Flow/src/components/MainContent.test.jsx"
